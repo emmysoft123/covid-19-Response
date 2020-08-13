@@ -1,0 +1,343 @@
+.container{
+  background-color: black;
+  overflow-x: hidden;
+  border:2px solid #80ff80
+
+}
+
+.header-fluid{
+position: relative;
+left: 15px;
+padding-right: 15px;
+padding-left: -15px;
+margin-left: -30px;
+background-color: #1b1c1b;
+}
+.card{
+  background-color: #1b1c1b;
+  margin-top: 10px;
+}
+.logo{
+  width: 90%;
+
+}
+.covid{
+  font-size: 10px;
+  color: #ebebe0;
+}
+.center{
+  color: #ebebe0;
+
+    font-size: 9px;
+}
+.card-text{
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+}
+.card-title{
+  font-size: 10px;
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+}
+.cases{
+  display: grid;
+  grid-row-gap: 15%;;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30%;
+}
+.total{
+  font-size: 10px;
+  color: #ffffff;
+}
+.Discharged{
+  color: #30FC0C;
+  font-size: 10px;
+}
+.Death{
+  color: #FC0C3F;
+  font-size: 12px;
+}
+.card-body{
+  background-color: #1b1c1b;
+}
+.active{
+  color: #FCFC0C;
+  font-size: 10px;
+}
+#total_figure{
+  font-size: 11px;
+  font-weight: 900;
+}
+#active_figure{
+  font-size: 13px;
+  font-weight: 900;
+  color: #FCFC0C;
+}
+#Discharged_figure{
+  font-size: 11px;
+  font-weight: 900;
+  margin-left: 13px;
+}
+#death_figure{
+  font-size: 13px;
+  font-weight: 900;
+}
+.covid_image{
+  background-color: #292526;
+}
+.cases1{
+  width: 14px;
+
+}
+.state{
+  display: grid;
+    background-color: #1b1c1b;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+.case7{
+padding-left: 15px;
+height: 170px;
+
+}
+.state_container{
+  font-size: 10px;
+  background-color:#1b1c1b;
+}
+#borno{
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+#state_summary{
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+#confirm_value{
+  font-weight: lighter;
+}
+.list-group-item{
+   background-color: #1b1c1b;
+
+   margin-left: 20%;
+   height: 40%;
+   font-size: 14px;
+   justify-content: flex-start;
+   max-height: 135px;
+
+}
+#borno_active{
+ color: #FCFC0C;
+ font-size: 10px;
+}
+#borno_discharged{
+    color: #30FC0C;
+    font-size: 10px;
+}
+#borno_death{
+    color: #FC0C3F;
+    font-size: 10px;
+}
+#borno_fatality{
+  color: #D2A3F3;
+  font-size: 10px;
+}
+#borno_discharge{
+  color: #0B18DC;
+  font-size: 10px;
+}
+.gmap_canvas{
+  width: 100%;
+  padding-top: 10px;
+}
+#select{
+  font-size: 11px;
+  cursor: pointer;
+
+  color: #ffffff;
+
+}
+
+		.input-group{
+			display: block;
+			margin:20px 10px;
+      color: #ffffff;
+
+
+
+		}
+		.input-group label{
+			display: block;
+			margin-left: 5px;
+        background-color: #1b1c1b;
+        color: #ffffff;
+		}
+		.input-control{
+			border:1px solid #1b1c1b;
+			padding: 10px 10px;
+      color: #ffffff;
+			border-radius: 6px;
+			width: 50%
+		}
+.select-cover{
+  border-radius: 6px;
+  border:1px solid #ebebe0;
+  display: table;
+  padding: 7px;
+overflow-y: hidden;
+  width: 50%;
+  background-color:#1b1c1b;
+  color: #ffffff;
+}
+
+::placeholder{
+   background-color:#1b1c1b;
+   color: #ffffff;
+  font-size:15px;
+
+}
+.select:focus{
+  outline: none;
+    background-color: #1b1c1b;
+}
+.select:focus .dropdown{
+  display: block;
+}
+.select{
+  border: none;
+	background-color:  #1b1c1b;
+  color: #ffffff;
+
+}
+   .dropdown{
+    width: 54%;
+    height: 150px;
+    overflow-y:scroll;
+    border-radius: 5px;
+    margin-top: 3px;
+    display: none;
+    color: #ffffff;
+
+   }
+   li{
+     color: #ffffff;
+     list-style-type: none;
+     margin-left: -20px;
+     font-size: 16px;
+     padding: 10px 0px;
+
+     padding-left: 10px;
+     cursor: pointer;
+   }
+
+   .fa-chevron-down:hover{
+
+   }
+#select1{
+  color: #ffffff;
+  font-size: 11px;
+}
+.select{
+	background-color: #1b1c1b;
+
+}
+
+
+.scrollbar {
+
+height: 300px;
+width: 100%;
+
+overflow-y: scroll;
+margin-bottom: 25px;
+}
+.force-overflow {
+min-height: 450px;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+width: 5px;
+background-color: #fff
+ }
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: grey; }
+
+@media only screen and (min-width:765px){
+
+  .state{
+    height: 400px;
+  }
+
+  .select{
+    border: none;
+    width: 70px;
+  	background-color:  #1b1c1b;
+    color: #ffffff;
+
+
+
+  }
+  .fa-chevron-down{
+    color:#000;
+
+  }
+  .logo{
+    width: 90%;
+
+  }
+  .covid{
+    padding-top: 4px;
+    font-size: 14px;
+    color: #ebebe0;
+    font-weight: 500;
+  }
+  .center{
+    color: #ebebe0;
+
+      font-size: 14px;
+  }
+  .header-fluid{
+  position: relative;
+  left: 15px;
+  padding-right: 15px;
+  padding-left: -15px;
+  margin-left: -30px;
+  background-color: #1b1c1b;
+  height: 60px;
+  }
+  #select1{
+    margin-left: -250px;
+  }
+  .case7{
+    height: 170px;
+  }
+  .gmap_canvas{
+    width: 100%;
+    padding-top: 10px;
+    height: 250px;
+
+  }
+  .select:focus .dropdown{
+
+  }
+  .select-cover{
+    border-radius: 6px;
+    border:1px solid #ebebe0;
+    display: table;
+    padding: 7px;
+  overflow-y: hidden;
+    width: 50%;
+    background-color:#1b1c1b;
+    margin-left: -40px;
+    margin-top: -45px;
+
+
+  }
+}
